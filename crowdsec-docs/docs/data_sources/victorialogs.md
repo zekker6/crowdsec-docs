@@ -53,6 +53,8 @@ Defaults to `/`.
 
 The [VictoriaLogs query](https://docs.victoriametrics.com/victorialogs/logsql/).
 
+Note that `tail` requests have limitations for operators used query. See [this doc](https://docs.victoriametrics.com/victorialogs/querying/#live-tailing) for the details.
+
 Required.
 
 ### `limit`
